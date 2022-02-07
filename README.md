@@ -1,7 +1,7 @@
 # Fire Damage Assessment System (Oracle PL/SQL and Microsoft Power BI)
 
 <p align="center">
-  <img width="350" src="https://github.com/nuclearcheesecake/lampstacks/blob/main/images/intro.jpg">
+  <img width="400" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/fire.jpg">
 </p>
 
 ## Table of Contents
@@ -41,7 +41,7 @@
 ## 2.3 Database creation and sample data
 
 <a name="8"></a>
-# 3. Deliverable 1 - BI Design and Implementation
+# 3. Deliverable 3 - BI Design and Implementation
 
 <a name="9"></a>
 ## 3.1 The brief
