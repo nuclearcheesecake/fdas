@@ -1,7 +1,7 @@
 # Fire Damage Assessment System (Using Oracle PL/SQL and Microsoft Power BI)
 
 <p align="center">
-  <img width="460" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/fire.jpg">
+  <img width="470" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/fire.jpg">
 </p>
 
 ## Table of Contents
