@@ -81,59 +81,66 @@ record the assessor’s name, their contact number and the insurer they work for
 An update to the scenario:
 
 ```
-This task continues the work you have started in deliverable 1 by refining/extending the model you developed and implementing for 
-the FDAS System
+This task continues the work you have started in deliverable 1 by refining/extending the model you 
+developed and implementing for the FDAS System
 
-Assignment 2 brief must be read in conjunction with the assignment 1 brief - i.e. your final model must encompass both sets of 
-requirements. 
+Assignment 2 brief must be read in conjunction with the assignment 1 brief - i.e. your final model 
+must encompass both sets of requirements. 
 
-You may modify your assignment 1 conceptual model in any manner you desire as you work through assignment 2, provided your final 
-model meets both sets of requirements. 
+You may modify your assignment 1 conceptual model in any manner you desire as you work through 
+assignment 2, provided your final model meets both sets of requirements. 
 
-In developing your final logical data model, any composite attributes present on your conceptual model must be expanded into their 
-component simple attributes, unless otherwise directed. If the supplementary material presented in this document does not guide 
-you in deciding the components you may make any reasonable decision on their component simple attributes.
+In developing your final logical data model, any composite attributes present on your conceptual 
+model must be expanded into their component simple attributes, unless otherwise directed. If the 
+supplementary material presented in this document does not guide you in deciding the components 
+you may make any reasonable decision on their component simple attributes.
 
 ---000---
 
 Case Study: 
 
-Further research has revealed that the FDAS must keep full historical details of all building fire damage. The following points 
-need to be considered in your further development:
+Further research has revealed that the FDAS must keep full historical details of all building 
+fire damage. The following points need to be considered in your further development:
 
 A building may be damaged due to a fire event:
-●	If the building is partially damaged the building will be repaired. If further permits are required to facilitate this repair 
-the FDAS system will not record their details, the FDAS will only maintain the original approval under which the building was built.
-●	If the building is damaged beyond repair the owner may choose to rebuild. If they do rebuild the new building will be assigned 
-a new building number for that property. The date the new building was approved for construction and the size of the new building 
-in square metres will be recorded within the FDAS.
+●	If the building is partially damaged the building will be repaired. If further permits are 
+required to facilitate this repair the FDAS system will not record their details, the FDAS will
+only maintain the original approval under which the building was built.
+●	If the building is damaged beyond repair the owner may choose to rebuild. If they do rebuild 
+the new building will be assigned a new building number for that property. The date the new 
+building was approved for construction and the size of the new building in square metres will 
+be recorded within the FDAS.
  
-Fire assessors, which are identified by an assessor_id, may change employment from one insurer to another (they cannot assess for 
-multiple insurers at the same time). To keep track of the historical employment of a particular assessor the date at which they 
-started assessing for a particular company is recorded. When they leave employment with a particular insurer the date they stopped 
-assessing for that company is also recorded.
+Fire assessors, which are identified by an assessor_id, may change employment from one insurer 
+to another (they cannot assess for multiple insurers at the same time). To keep track of the 
+historical employment of a particular assessor the date at which they started assessing for a 
+particular company is recorded. When they leave employment with a particular insurer the date 
+they stopped assessing for that company is also recorded.
 
-Since the owner name for a property may be an individual’s name, a business name or the name of the body corporate, the FDAS 
-requires that the owner name not be treated as a composite attribute. FDAS is also happy to keep the Chief Executive Officer's 
-name (administrator) for a Municipality and all contact phone numbers as simple attributes. 
+Since the owner name for a property may be an individual’s name, a business name or the name of 
+the body corporate, the FDAS requires that the owner name not be treated as a composite attribute. 
+FDAS is also happy to keep the Chief Executive Officer's name (administrator) for a Municipality 
+and all contact phone numbers as simple attributes. 
 
-The property types which FDAS currently record are: "farm property, a residential property (in a city or town) or a business 
-property". Discussions have indicated that this range of property types needs to be expanded and be such that it can be added 
-to/modified as needed on a regular basis.
+The property types which FDAS currently record are: "farm property, a residential property (in a 
+city or town) or a business property". Discussions have indicated that this range of property types 
+needs to be expanded and be such that it can be added to/modified as needed on a regular basis.
 
-When a new fire is detected, it is added to the FDAS immediately. Initially, attributes which record the impact of the fire, 
-such as area burnt, are set to 0 and will be updated as the fire proceeds and data is gathered. After a fire passes through 
-a particular area, first level responders (fire personnel or police officers) move through the area and record details of 
-buildings which have been damaged and whether the building has been totally destroyed or not. These details are then added 
-into the FDAS. Note that FDAS are not interested in recording details about the first level responders, only the property 
-damage they note. 
+When a new fire is detected, it is added to the FDAS immediately. Initially, attributes which record 
+the impact of the fire, such as area burnt, are set to 0 and will be updated as the fire proceeds and 
+data is gathered. After a fire passes through a particular area, first level responders (fire personnel 
+or police officers) move through the area and record details of buildings which have been damaged and 
+whether the building has been totally destroyed or not. These details are then added into the FDAS. 
+Note that FDAS are not interested in recording details about the first level responders, only the 
+property damage they note. 
 
-At a later stage, when the site is safe, insurance companies will schedule assessor visits to those buildings which were 
-insured at the time of the fire impact. Assessor visits will be added to the FDAS after the visit has been completed. The 
-assessor will provide the damage cost for an insured building when they have completed all necessary visits.
+At a later stage, when the site is safe, insurance companies will schedule assessor visits to those 
+buildings which were insured at the time of the fire impact. Assessor visits will be added to the 
+FDAS after the visit has been completed. The assessor will provide the damage cost for an insured 
+building when they have completed all necessary visits.
 
-Buildings which are not insured will have their damage cost estimated by the municipality on the basis of the recorded 
-municipality evaluation value. 
+Buildings which are not insured will have their damage cost estimated by the municipality on the 
+basis of the recorded municipality evaluation value. 
 ```
 
 <a name="6"></a>
