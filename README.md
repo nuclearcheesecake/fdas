@@ -611,6 +611,10 @@ And then we inserted sample data, which displayed as:
 <a name="8"></a>
 # 3. Deliverable 3 - BI Design and Implementation
 
+<p align="center">
+  <img width="470" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/assign3.png">
+</p>
+
 <a name="9"></a>
 ## 3.1 The brief
 
@@ -695,7 +699,7 @@ that need assessment, and track their claims per region.
 <a name="11"></a>
 ## 3.3 Sample reports and project dashboard
 
-To see the full sample report and dashboard, please click HERE. 
+To see the full sample report and dashboard, please click [HERE](https://github.com/nuclearcheesecake/fdas/blob/main/Sample%20Report%20and%20Dashboard.pdf). 
 
 ### Explanation of report components
 
