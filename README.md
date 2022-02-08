@@ -81,16 +81,14 @@ assessor is identified by an assessor id. The system needs to record the assesso
 number and the insurer they work for.
 ```
 
-My team and I then created the following ERD in response to this brief:
-
-<p align="center">
-  <img width="470" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/ERD.png">
-</p>
-
-
 <a name="3"></a>
 ## 1.2 Proposed solution
 
+My team and I then created the following ERD in response to this brief:
+
+<p align="center">
+  <img width="600" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/erd.png">
+</p>
 
 <a name="4"></a>
 # 2. Deliverable 2 - Full Database Model and Implementation
