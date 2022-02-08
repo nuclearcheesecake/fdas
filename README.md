@@ -87,7 +87,7 @@ number and the insurer they work for.
 My team and I then created the following ERD in response to this brief:
 
 <p align="center">
-  <img width="700" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/erd.png">
+  <img width="750" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/erd.png">
 </p>
 
 <a name="4"></a>
