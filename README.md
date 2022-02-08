@@ -4,6 +4,8 @@
   <img width="470" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/fire.jpg">
 </p>
 
+As our final university project for a module on advanced databases, my team and I created a database and generated reports for the tracking of fires in different municipalities. This system stored information on the location and spread ("sparking") of new fires, as well as data on properties in the district. This could be used to warn property owners, as well as by insurers to prepare for potential claims.
+
 ## Table of Contents
 
 1. [Deliverable 1 - The Conceptual Model](#1)
@@ -250,7 +252,7 @@ the values “Totalled” and “Partial”.
 We created a database for this project that resulted in the following logical model:
 
 <p align="center">
-  <img width="470" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/logic.png">
+  <img width="600" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/logic.png">
 </p>
 
 The following code was used to create the database:
@@ -651,7 +653,7 @@ the fire, and whether the fire sparked other fires).
 There exists a hierarchy in both the time and locational data:
 
 <p align="center">
-  <img width="470" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/hiera.png">
+  <img width="350" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/hiera.png">
 </p>
 
 The assessment also has different dimensions:
@@ -668,7 +670,7 @@ Thus two logical units that need to be modelled are that of the fire event and t
 assessment, as they represent two processes that generate data in the database.
 
 <p align="center">
-  <img width="470" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/fireevent.png">
+  <img width="350" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/fireevent.png">
 </p>
 
 
@@ -699,50 +701,54 @@ that need assessment, and track their claims per region.
 <a name="11"></a>
 ## 3.3 Sample reports and project dashboard
 
+<p align="center">
+  <img width="470" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/screen.png">
+</p>
+
 To see the full sample report and dashboard, please click [HERE](https://github.com/nuclearcheesecake/fdas/blob/main/Sample%20Report%20and%20Dashboard.pdf). 
 
 ### Explanation of report components
 
 <p align="center">
-  <img width="470" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/report1.png">
+  <img width="525" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/report1.png">
 </p>
 
 <p align="center">
-  <img width="470" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/report2.png">
+  <img width="525" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/report2.png">
 </p>
 
 <p align="center">
-  <img width="470" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/report3.png">
+  <img width="525" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/report3.png">
 </p>
 
 <p align="center">
-  <img width="470" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/report4.png">
+  <img width="525" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/report4.png">
 </p>
 
 <p align="center">
-  <img width="470" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/report5.png">
+  <img width="525" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/report5.png">
 </p>
 
 ### Explanation of dashboard components
 
 <p align="center">
-  <img width="470" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/dash1.png">
+  <img width="525" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/dash1.png">
 </p>
 
 <p align="center">
-  <img width="470" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/dash2.png">
+  <img width="525" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/dash2.png">
 </p>
 
 <p align="center">
-  <img width="470" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/dash3.png">
+  <img width="525" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/dash3.png">
 </p>
 
 <p align="center">
-  <img width="470" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/dash4.png">
+  <img width="525" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/dash4.png">
 </p>
 
 <p align="center">
-  <img width="470" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/dash5.png">
+  <img width="525" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/dash5.png">
 </p>
 
 ### Report UI Specifications
