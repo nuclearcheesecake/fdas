@@ -605,7 +605,7 @@ END;
 And then we inserted sample data, which displayed as:
 
 <p align="center">
-  <img width="470" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/sample.png">
+  <img width="600" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/sample.png">
 </p>
 
 <a name="8"></a>
@@ -651,7 +651,7 @@ the fire, and whether the fire sparked other fires).
 There exists a hierarchy in both the time and locational data:
 
 <p align="center">
-  <img width="350" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/hiera.png">
+  <img width="420" src="https://github.com/nuclearcheesecake/fdas/blob/main/images/hiera.png">
 </p>
 
 The assessment also has different dimensions:
